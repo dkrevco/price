@@ -96,6 +96,7 @@ class ReStore(Browser):
         self._parse_products()
 
     def _write_data(self):
+
         self._make_file_name()
         self._make_folder()
         self._create_local_file()
